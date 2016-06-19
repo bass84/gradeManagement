@@ -10,14 +10,22 @@ import com.gradeManagement.model.GradeManagement;
 import com.gradeManagement.service.GradeManagementService;
 
 @Controller
+@RequestMapping("/management")
 public class GradeManagementController {
 
 	@Autowired
 	private GradeManagementService gradeManagementService;
 	
-	@RequestMapping(value="/addNewManagement", method = RequestMethod.GET)
-	public String addGrade(ModelMap modelMap, GradeManagement gradeManagement) {
-		return null;
+	@RequestMapping(value="getManagementList", method = RequestMethod.GET)
+	public String addManagement(ModelMap modelMap, GradeManagement gradeManagement) {
+		modelMap.addAttribute("headTitle", "관리정보 입력");
+		return "/management/managementList";
+	}
+	
+	@RequestMapping(value="/addManagement", method = RequestMethod.POST)
+	public String addManagementPost(ModelMap modelMap, GradeManagement gradeManagement) {
+	
+		return "redirect:/management/addManagement";
 	}
 
 }

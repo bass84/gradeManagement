@@ -3,11 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	
 
     <title>충청대 학생 기록</title>
 
@@ -63,14 +59,14 @@
                         </thead>
                         <tbody>
                             <tr class="odd gradeX">
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td>20151506</td>
+                                <td>박요한</td>
+                                <td>13</td>
+                                <td>2</td>
+                                <td>20</td>
+                                <td>25</td>
+                                <td>15</td>
+                                <td>80(A)</td>
                             </tr>
                         </tbody>
                     </table>
