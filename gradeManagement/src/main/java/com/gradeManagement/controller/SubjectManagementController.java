@@ -19,9 +19,9 @@ public class SubjectManagementController {
 	@Autowired
 	private SubjectManagementService subjectManagementservice;
 	
-	@RequestMapping(value="getSubjectManagementList", method=RequestMethod.GET)
+	@RequestMapping(value="/getSubjectManagementList", method=RequestMethod.GET)
 	private String getSubjectManagementList(ModelMap modelMap) {
-		modelMap.addAttribute("headTitle", "수업관리 입력");
+		modelMap.addAttribute("headTitle", "수업관리");
 		return "/subjectManagement/subjectManagementList";
 	}
 	

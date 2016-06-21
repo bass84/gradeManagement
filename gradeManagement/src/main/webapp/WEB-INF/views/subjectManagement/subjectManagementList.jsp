@@ -2,6 +2,8 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
+		
+    
 		$("#year").datepicker({
 	        changeYear: true,
 	        showButtonPanel: true,
@@ -46,7 +48,18 @@
 					}
 				}
 			});
-		
+			
+			$('#dataTables-example').DataTable({
+                responsive: true
+        	});
+			$(".col-sm-6").eq(1).css("text-align", "right");
+			$(".col-sm-6").eq(3).css("text-align", "left");
+			//$("#dataTables-example_info").css("width", "500").css("margin-right", "0");
+			$(".col-sm-6").eq(2).css("width", "42%");
+	        //$(".col-sm-6").eq(0).hide();
+	        //$(".col-sm-6").eq(1).hide();
+	        //$(".col-sm-6").eq(2).hide();
+	        //$(".col-sm-6").eq(3).hide();
 	
 	});
 </script>
@@ -85,7 +98,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div style="text-align: right;">
+                    <div style="text-align: right; position:relative; top:-87px;">
                     	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                                 등록
                         </button>
