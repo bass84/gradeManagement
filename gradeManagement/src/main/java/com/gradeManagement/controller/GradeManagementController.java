@@ -21,7 +21,6 @@ public class GradeManagementController {
 	
 	@RequestMapping(value="/getManagementList", method = RequestMethod.GET)
 	public String addManagement(ModelMap modelMap, GradeManagement gradeManagement) {
-		logger.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" + gradeManagement.toString());
 		modelMap.addAttribute("headTitle", "관리정보 입력");
 		return "/management/managementList";
 	}
