@@ -1,9 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" 		uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="tiles" 	uri="http://tiles.apache.org/tags-tiles" %>
-<%@ taglib prefix="spring" 	uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="form" 	uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="fn" 		uri="http://java.sun.com/jsp/jstl/functions" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
  <head>
@@ -28,7 +24,11 @@
     
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
 	
-	<script src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+	<!-- <script src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script> -->
+	<script src="/resources/bootstrap/datepicker/bootstrap-datepicker.js"></script>
+	
+	<script src="/resources/bootstrap/datepicker/bootstrap-datepicker.kr.js"></script>
+	
   	
   	<script type="text/javascript" src="/resources/jqueryValidation/dist/jquery.validate.min.js"></script>
 	
